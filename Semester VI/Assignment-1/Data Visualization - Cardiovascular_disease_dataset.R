@@ -5,7 +5,7 @@ library(tidyverse)
 library(knitr)
 
 Df0<- read.csv('healthcare-dataset-stroke-data.csv',TRUE,',',na.strings = "N/A")
-
+#BharathwajAIML3rdYear
 class(Df0)
 colnames(Df0)
 
@@ -76,3 +76,34 @@ ggplot(Df1, aes(x = age, y = bmi, color=bmi)) +
   geom_smooth(method = "lm",colour = 1) +
   labs(x="Age", y="BMI", title = "Age and BMI (used jitter to show distribution)")
 
+
+#Bharathwaj065
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Bharathwaj065
